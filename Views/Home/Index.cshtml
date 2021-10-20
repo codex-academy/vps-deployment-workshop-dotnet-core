@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Counter App</h1>
+
+    <h3><span class="label label-info counter">@ViewBag.counter</span></h3>
+
+    <form action="#">
+        <Button class="btn btn-primary" asp-action="Increase" >Increase</Button>
+        <Button class="btn btn-warning" asp-action="Decrease" >Decrease</Button>
+    </form>
+</div>
